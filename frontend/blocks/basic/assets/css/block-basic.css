@@ -1,0 +1,9 @@
+/**
+ * Sample block admin styles.
+ */
+
+.wp-block-ccb-block-notice {
+	margin: inherit;
+	font: inherit;
+	color: inherit;
+}
