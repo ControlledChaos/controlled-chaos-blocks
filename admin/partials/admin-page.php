@@ -22,6 +22,6 @@ if ( isset( $_GET[ 'tab' ] ) ) {
 	<h1><?php _e( 'Editor Settings', 'controlled-chaos-blocks' ); ?></h1>
 	<p class="description"><?php _e( 'Manage blocks in the WordPress editor.' ); ?></p>
 	<h2 class="nav-tab-wrapper">
-		<a href="?page=<?php echo CCB_ADMIN_SLUG; ?>-settings&tab=block-use" class="nav-tab <?php echo $active_tab == 'block-use' ? 'nav-tab-active' : ''; ?>"><?php esc_html_e( 'Block Use', 'controlled-chaos-blocks' ); ?></a>
+		<a href="?page=<?php echo CCB_ADMIN_SLUG; ?>&tab=block-use" class="nav-tab <?php echo $active_tab == 'block-use' ? 'nav-tab-active' : ''; ?>"><?php esc_html_e( 'Block Use', 'controlled-chaos-blocks' ); ?></a>
     </h2>
 </div>
