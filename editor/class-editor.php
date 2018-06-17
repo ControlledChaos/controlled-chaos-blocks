@@ -28,7 +28,8 @@ class Controlled_Chaos_Blocks_Editor {
 	/**
 	 * Initialize the class.
 	 *
-	 * @since    1.0.0
+	 * @since  1.0.0
+	 * @return self
 	 */
 	public function __construct() {
 
@@ -40,7 +41,8 @@ class Controlled_Chaos_Blocks_Editor {
 	/**
 	 * Include sample blocks.
 	 *
-	 * @since    1.0.0
+	 * @since  1.0.0
+	 * @return void
 	 */
 	public function blocks() {
 

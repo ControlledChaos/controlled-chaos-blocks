@@ -29,7 +29,8 @@ class Controlled_Chaos_Frontend {
 	/**
 	 * Initialize the class.
 	 *
-	 * @since    1.0.0
+	 * @since  1.0.0
+	 * @return self
 	 */
 	public function __construct() {
 
@@ -46,7 +47,8 @@ class Controlled_Chaos_Frontend {
 	 * 
 	 * `wp-blocks`: includes block type registration and related functions.
 	 *
-	 * @since    1.0.0
+	 * @since  1.0.0
+	 * @return void
 	 */
 	public function enqueue_styles() {
 
@@ -63,7 +65,8 @@ class Controlled_Chaos_Frontend {
 	/**
 	 * Include sample blocks.
 	 *
-	 * @since    1.0.0
+	 * @since  1.0.0
+	 * @return void
 	 */
 	public function blocks() {
 

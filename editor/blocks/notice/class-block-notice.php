@@ -28,7 +28,8 @@ class Controlled_Chaos_Block_Notice {
 	/**
 	 * Initialize the class.
 	 *
-	 * @since    1.0.0
+	 * @since  1.0.0
+	 * @return self
 	 */
 	public function __construct() {
 
@@ -47,7 +48,8 @@ class Controlled_Chaos_Block_Notice {
 	 * `wp-element`: includes the WordPress Element abstraction for describing the structure of your blocks.
 	 * `wp-i18n`: To internationalize the block's text.
 	 *
-	 * @since    1.0.0
+	 * @since  1.0.0
+	 * @return void
 	 */
 	public function enqueue_scripts() {
 
