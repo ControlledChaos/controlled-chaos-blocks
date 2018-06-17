@@ -9,3 +9,9 @@ An object-oriented starter plugin for WordPress editor blocks.
 ## Requirements
 
 Requires PHP 7 and the Gutenberg plugin.
+
+## Features
+
+Nothing to see here yet. Don't bother installing this but please check back soon.
+
+The first priority is management of which blocks to include/exclude, hopefully by user role.

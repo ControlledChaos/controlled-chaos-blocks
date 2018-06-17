@@ -28,7 +28,8 @@ class Controlled_Chaos_Blocks {
 	/**
 	 * Initialize the class.
 	 *
-	 * @since 1.0.0
+	 * @since  1.0.0
+	 * @return self
 	 */
 	public function __construct() {
 
@@ -42,11 +43,15 @@ class Controlled_Chaos_Blocks {
 	 *
 	 * @since  1.0.0
 	 * @access private
+	 * @return void
 	 */
 	private function dependencies() {
 
-		// Translation functionality.
+		// Translation ready.
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-i18n.php';
+
+		// Administration functionality, settings.
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-admin.php';
 
 		// Editor functionality, scripts and styles.
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'editor/class-editor.php';

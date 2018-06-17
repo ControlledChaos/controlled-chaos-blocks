@@ -15,7 +15,7 @@
  * Author URI:  http://ccdzine.com/
  * License:     GPL-3.0+
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Text Domain: controlled-chaos-blocks-blocks
+ * Text Domain: controlled-chaos-blocks
  * Domain Path: /languages
  */
 
@@ -30,6 +30,17 @@ if ( ! defined( 'WPINC' ) ) {
  */
 if ( ! defined( 'CCB_VERSION' ) ) {
 	define( 'CCB_VERSION', '1.0.0' );
+}
+
+/**
+ * This URL slug is used in various plugin admin & settings pages.
+ * 
+ * The prefix will change in your search & replace in renaming the plugin.
+ * Change the second part of the define(), here as 'controlled-chaos-blocks',
+ * to your preferred page slug.
+ */
+if ( ! defined( 'CCB_ADMIN_SLUG' ) ) {
+	define( 'CCB_ADMIN_SLUG', 'controlled-chaos-blocks' );
 }
 
 /**
