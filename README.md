@@ -1,6 +1,6 @@
 # Controlled Chaos Blocks
 
-An object-oriented starter plugin for WordPress editor blocks.
+A starter plugin for WordPress editor blocks.
 
 ![Gutenberg Ready](https://img.shields.io/badge/Gutenberg-ready-blue.svg)
 ![WordPress](https://img.shields.io/wordpress/v/akismet.svg?style=flat-square)
